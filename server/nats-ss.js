@@ -1,8 +1,8 @@
 const { getInstance: getNerveInstance } = require('nats-nerve')
 
 const defaults = {
-  server: 'nats://localhost:4222',
-  monitor: 'http://localhost:8222',
+  server: 'nats://queue:4222',
+  monitor: 'http://queue:8222',
   cluster: 'test-cluster',
   appName: 'nats-streaming-console'
 }
